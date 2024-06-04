@@ -36,9 +36,7 @@ export default function Page() {
                 </td>
               </tr>
             <tr>
-              <td colSpan="4">
-                <p>No users to display</p>
-              </td>
+            <td colSpan={4}>No users to display</td> 
             </tr>
         </tbody>
       </table>

@@ -48,9 +48,7 @@ export default function Page() {
                 </td>
               </tr>
             <tr>
-              <td colSpan="4">
-                <p>No projects to display</p>
-              </td>
+              <td colSpan={4}>No projects to display</td> 
             </tr>
         </tbody>
       </table>
