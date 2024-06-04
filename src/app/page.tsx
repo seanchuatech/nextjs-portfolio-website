@@ -1,6 +1,6 @@
-
 import Navigation from "./ui/home/navigation";
-import Footer from "./ui/home/footer";import About from "./ui/home/about";
+import Footer from "./ui/home/footer";
+import About from "./components/About";
 import Skills from "./ui/home/skills";
 import Projects from "./components/Projects";
 import Hero from "./components/Hero";
@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <Navigation />
+      <Navigation />
       <About />
       <Skills />
-      <Projects /> */}
+      <Projects />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

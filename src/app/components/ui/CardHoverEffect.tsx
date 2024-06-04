@@ -8,6 +8,7 @@ export const HoverEffect = ({
   className,
 }: {
   items: {
+    img: string; 
     title: string;
     description: string;
     link: string;
@@ -19,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
         className
       )}
     >
@@ -49,6 +50,13 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
+            <div className="top-0 left-0 w-full h-full overflow-hidden rounded-2xl">
+              <img
+                src={item.img}
+                alt={item.title}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+            </div>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>

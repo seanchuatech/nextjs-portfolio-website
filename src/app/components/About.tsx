@@ -8,7 +8,7 @@ export default function About() {
                 <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">I'm constantly practicing to hone my skills and stay up-to-date on best practices.  I believe that a strong foundation and a commitment to learning are essential for building a successful web development career.</p>
                 <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">This website is a testament to my dedication and a platform to showcase my progress. I'm excited to share my journey with you and see what the future holds in the exciting world of web development!</p>
             </div>
-            <div>
+            <div className="flex items-center">
                 <iframe
                   src="https://giphy.com/embed/qgQUggAC3Pfv687qPC"
                   className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
