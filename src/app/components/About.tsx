@@ -1,4 +1,6 @@
-export default function About() {
+import React from 'react'
+
+const About = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
@@ -19,5 +21,7 @@ export default function About() {
             </div>
         </div>
     </section>
-  );
+  )
 }
+
+export default About
