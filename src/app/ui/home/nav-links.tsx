@@ -1,6 +1,5 @@
 "use client"
-// import Link from 'next/link';
-import { Link } from 'react-scroll';
+import Link from 'next/link';
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
@@ -27,10 +26,7 @@ export default function NavLinks() {
           // </Link>
           <Link
             key={link.name}
-            to={link.href}
-            smooth={true}
-            duration={800}
-            activeClass="active"
+            href={link.href}
             className='block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-slate-500 md:p-0 md:dark:hover:text-slate-500 dark:text-white dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-500 hover:cursor-pointer'
           >
             {link.name}
