@@ -4,11 +4,11 @@ import Link from 'next/link';
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'Home', href: 'intro', },
-  { name: 'About', href: 'about', },
-  { name: 'Skills', href: 'skills', },
-  { name: 'Projects', href: 'projects', },
-  { name: 'Contact', href: 'contact', },
+  { name: 'Home', href: '#home', },
+  { name: 'About', href: '#about', },
+  { name: 'Skills', href: '#skills', },
+  { name: 'Projects', href: '#projects', },
+  { name: 'Contact', href: '#contact', },
 ];
 
 export default function NavLinks() {
